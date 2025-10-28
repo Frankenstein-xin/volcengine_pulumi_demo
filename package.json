@@ -1,0 +1,15 @@
+{
+    "name": "compliance",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "^3.113.0",
+        "@types/node-forge": "^1.3.14",
+        "@volcengine/openapi": "^1.32.0",
+        "@volcengine/pulumi": "^0.0.35",
+        "node-forge": "^1.3.1"
+    }
+}
