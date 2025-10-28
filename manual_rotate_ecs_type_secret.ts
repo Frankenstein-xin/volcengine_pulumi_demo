@@ -21,9 +21,9 @@ export function main() {
         instanceChargeType: 'PostPaid',
         systemVolumeType: 'ESSD_PL0',
         systemVolumeSize: 40,
-        subnetId: "subnet-mjpyaz6lbqww5smt1b5emyuz",
-        securityGroupIds: ["sg-13fxtfftag7wg3n6nu42hlu60"],
-        password: "Xz2@Vq8*Jp5%Lc3&Df9",
+        subnetId: "PutYourOwn",
+        securityGroupIds: ["PutYourOwn"],
+        password: "PutYourOwn",
     });
 
     const extendedConfig = instance.id.apply(instanceId => {
