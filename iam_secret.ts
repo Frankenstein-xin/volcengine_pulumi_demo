@@ -12,7 +12,7 @@ export async function main() {
             {
                 "Effect": "Allow",
                 "Action": [
-                    "kms:*"
+                    "sts:AssumeRole"
                 ],
                 "Resource": [
                     "*"
