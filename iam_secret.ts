@@ -42,7 +42,7 @@ export async function main() {
         )
     })
 
-    const secretResource = new volcengine.kms.Secret("secretResource", {
+    const iamSecret = new volcengine.kms.Secret("iam-secret", {
         secretName: "iam-secret",
         secretType: "IAM",
         secretValue: secretValue,
